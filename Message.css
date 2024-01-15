@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif !important;
+    margin-top: 65px !important;
+    background-color: rgba(231, 119, 207, 0.831) !important;
+}
+.send{
+    
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding-bottom: 20px;
+}
+.address{
+    /* background: gray; */
+    padding-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+.address h5{
+    font-weight: 600;
+}
+.address p{
+    line-height: 8px;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif;
+}
+.phone{
+    /* background: gray; */
+    align-items: center;
+    text-align: center;
+}
+.phone h5{
+    font-weight: 600;
+}
+.phone p{
+    line-height: 8px;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif;
+}
+.email{
+    /* background: gray; */
+    align-items: center;
+    text-align: center;
+}
+.email h5{
+    font-weight: 600;
+}
+.email p{
+    line-height: 8px;
+    font-weight: 450;
+    font-family: 'Poppins', sans-serif;
+}
+.line{
+    margin-top: 190px;
+    border-left: 2px solid black;
+    height: 160px;
+}
+.sendusmessage h2{
+    color: red;
+    font-weight: 600;
+}
+.form input{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    background: rgb(203, 225, 234);
+    
+}
+.form input::placeholder{
+    color: rgb(41, 118, 185);
+    font-family: 'Poppins', sans-serif;
+}
+.form textarea{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    height: 100px;
+    width: 100%;
+    background: rgb(203, 225, 234);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.form textarea::placeholder{
+    color: rgb(41, 118, 185);
+}
+button{
+    border: none;
+    height: 40px;
+    width: 120px;
+    background: red;
+    color: white;
+    border-radius: 10px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+button:hover{
+    color: red;
+    background: white;
+    border: 1px solid red;
+}
+button:active{
+    background-color: black;
+    color: white;
+    opacity: 20%;
+}
